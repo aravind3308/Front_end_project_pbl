@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.logo h1 {
+    font-family: 'Trirong', serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 83px;
+    color: orangered;
+}
+
+#navbar {
+    display: flex;
+    align-items:center;
+    position: relative;
+    top: 0px;
+    height: 95px;
+}
+
+#navbar::before {
+    content: "";
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 50px;
+    font-size: 17px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#navbar ul li a {
+    display: block;
+    color: black;
+    font-family: 'Trirong', serif;
+    padding: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    border-radius: 23px;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+.sin {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 31px;
+    margin: 19px 8px;
+    border: none;
+    cursor: pointer;
+    outline: no;
+}
+
+.sin:hover{
+    color: white;
+}
+.sin a{
+    text-decoration: none;
+    color: white;   
+}
+.main{
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 400px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    position: relative;
+    display: inline-block;
+    top:0px;
+    left: 395px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.main p{
+    position: relative;
+    display: inline-block;
+    left: 170px;
+    top: 45px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.main img{
+    position: relative;
+    top: 39px;
+}
+.second{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 250px;
+    height: 400px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.second h1{
+    position: relative;
+    top: 45px;
+    left: 535px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.second p{
+    position: relative;
+    top: 55px;
+    left: 480px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.third{
+    display: flex;
+
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 400px;
+}
+.third img{
+    height: 100%;
+    width: 70%;
+    top: 20px;
+}
+.third h1{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.forth{
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 350px;
+    height: 320px;
+    top: 3px;
+    border-radius: 19px;
+    background-color: white;
+}
+.sign {
+    display:inline-block;
+    position: absolute;
+    word-wrap: unset;
+    top: 240px;
+    left: 80px;
+    color: white;
+    background-color: blue;
+    padding: 6px 31px;
+    margin: 5px 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.sign a{
+    text-decoration: none;
+    color: white; 
+}
+.forth img{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 553px;
+    width: 315px;
+    height: 313px;
+}  
+.forth h1{
+    display: inline-block;
+    position: absolute;
+    top: 85px;
+    left: 58px;
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+.forth p{
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+footer{
+    position: absolute;
+    top: 1850px;
+    height: 150px;
+    width: 100%;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot a:hover{
+    color: white;
+}
+.end{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    position: relative;
+    width: 50%;
+    top: -10px;
+    left: 540px;
+    font-family: 'Inter', sans-serif;
+}
+.foot{
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+}
+.titl{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500; 
+}
+.copy{
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: -60px; 
+    font-family: 'Inter', sans-serif;
+}

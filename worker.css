@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.logo h1 {
+    font-family: 'Trirong', serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 83px;
+    color: orangered;
+}
+
+#navbar {
+    display: flex;
+    align-items:center;
+    position: relative;
+    top: 0px;
+    height: 95px;
+}
+
+#navbar::before {
+    content: "";
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 50px;
+    font-size: 17px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#navbar ul li a {
+    display: block;
+    color: black;
+    font-family: 'Trirong', serif;
+    padding: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    border-radius: 23px;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+.sin {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 31px;
+    margin: 19px 8px;
+    border: none;
+    cursor: pointer;
+    outline: no;
+}
+
+.sin:hover{
+    color: white;
+}
+.sin a{
+    text-decoration: none;
+    color: white;   
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first h1{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid beige;
+    background-color: white;
+    color: darkgreen;
+    margin: 20px 20px;
+    padding: 27px 100px;
+    top: 120px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 50px;
+}
+.contact p{
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    top: -170px;
+    font-family: 'Inter', sans-serif;
+}
+.cont-inp{
+    position: relative;
+    padding: 20px 0px;
+
+    top: 120px;
+}.contact {
+    position: relative;
+    height: 390px;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 0px;
+    top: 50px;
+    margin: 0px;
+}
+.contact-box input,
+.contact-box textarea
+{
+    width: 90%;
+    padding: 1.1rem;
+    height: 18px;
+    border-radius: 12px;
+    border: none;
+    margin: 30px 30px;
+    font-family: 'Inter', sans-serif;
+}
+.contact-box form{
+    width: 40%;
+
+}
+.contact-box label{
+    font-size: 0.9rem;
+    position: absolute;
+    left: 33px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.gender{
+    padding: 8px 15px;
+    border-radius: 12px;
+    color: black;
+    border: none;
+    margin: 30px 30px;
+    font-family: 'Inter', sans-serif;
+}
+.address{
+    position: absolute;
+    left: 33px;
+    top: 900px;
+}
+.but {
+    display:inline-block;
+    position: absolute;
+    word-wrap: unset;
+    top: 1180px;
+    left:710px;
+    color: white;
+    background-color: blue;
+    padding: 8px 60px;
+    margin: 0px -16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.but a{
+    text-decoration: none;
+    color: white;   
+}
+.check{
+    display: inline-block;
+    position: absolute;
+    top: 970px;
+    left: -195px;
+}
+.contact-box p{
+    display: flex;
+    position: absolute;
+    top: 1120px;
+    left: 590px;
+}
+.profession{
+    display: flex;
+    position: relative;
+    padding: 15px 35px;
+    border-radius: 12px;
+    color: black;
+    border: none;
+    margin: 30px 30px;
+    font-family: 'Inter', sans-serif;
+}
+.prof{
+    position: absolute;
+    left: 33px;
+    top: 680px;
+}
+footer{
+    position: absolute;
+    top: 1450px;
+    height: 150px;
+    width: 100%;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot a:hover{
+    color: white;
+}
+.end{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    position: relative;
+    width: 50%;
+    top: -10px;
+    left: 540px;
+    font-family: 'Inter', sans-serif;
+}
+.foot{
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+}
+.titl{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500; 
+}
+.copy{
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: -60px; 
+    font-family: 'Inter', sans-serif;
+}
+

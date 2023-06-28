@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.logo h1 {
+    font-family: 'Trirong', serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 83px;
+    color: orangered;
+}
+
+#navbar {
+    display: flex;
+    align-items:center;
+    position: relative;
+    top: 0px;
+    height: 95px;
+}
+
+#navbar::before {
+    content: "";
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 50px;
+    font-size: 17px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#navbar ul li a {
+    display: block;
+    color: black;
+    font-family: 'Trirong', serif;
+    padding: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    border-radius: 23px;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+.sin {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 31px;
+    margin: 19px 8px;
+    border: none;
+    cursor: pointer;
+    outline: no;
+}
+
+.sin:hover{
+    color: white;
+}
+.sin a{
+    text-decoration: none;
+    color: white;   
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first h1{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid beige;
+    background-color: blue;
+    color: white;
+    margin: 20px 20px;
+    padding: 27px 100px;
+    top: 140px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+}
+.contact p{
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    top: -170px;
+    font-family: 'Inter', sans-serif;
+}
+.cont-inp{
+    position: relative;
+    padding: 20px 0px;
+
+    top: 120px;
+}.contact {
+    position: relative;
+    height: 390px;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+.contact-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 40px;
+    top: 50px;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 200%;
+    padding: 1.1rem;
+    height: 18px;
+    border-radius: 12px;
+    border: none;
+    margin: 30px 30px;
+    font-family: 'Inter', sans-serif;
+}
+.contact-box form{
+    width: 40%;
+
+}
+.contact-box label{
+    font-size: 0.9rem;
+    position: absolute;
+    left: 33px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+.but {
+    display:inline-block;
+    position: absolute;
+    word-wrap: unset;
+    top: 510px;
+    left:720px;
+    color: white;
+    background-color: blue;
+    padding: 8px 60px;
+    margin: 0px -16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.but a{
+    text-decoration: none;
+    color: white;   
+}
+.forg a{
+    text-decoration: none;
+    color: black;
+
+}
+.forg{
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 890px;
+}
+.not{
+    display: inline-block;
+    position: absolute;
+    top: 615px;
+    left: 560px;
+}
+.btn {
+    display:inline-block;
+    position: absolute;
+    word-wrap: unset;
+    top: 640px;
+    left:570px;
+    color: white;
+    background-color: blue;
+    padding: 8px 30px;
+    margin: 0px -16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+    color: white;   
+}
+footer{
+    position: absolute;
+    top: 800px;
+    height: 150px;
+    width: 100%;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot a:hover{
+    color: white;
+}
+.end{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    position: relative;
+    width: 50%;
+    top: -10px;
+    left: 540px;
+    font-family: 'Inter', sans-serif;
+}
+.foot{
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+}
+.titl{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500; 
+}
+.copy{
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: -60px; 
+    font-family: 'Inter', sans-serif;
+}

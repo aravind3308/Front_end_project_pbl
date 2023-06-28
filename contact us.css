@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.logo h1 {
+    font-family: 'Trirong', serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 83px;
+    color: orangered;
+}
+
+#navbar {
+    display: flex;
+    align-items:center;
+    position: relative;
+    top: 0px;
+    height: 95px;
+}
+
+#navbar::before {
+    content: "";
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 50px;
+    font-size: 17px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#navbar ul li a {
+    display: block;
+    color: black;
+    font-family: 'Trirong', serif;
+    padding: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    border-radius: 23px;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+.sin {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 31px;
+    margin: 19px 8px;
+    border: none;
+    cursor: pointer;
+    outline: no;
+}
+
+.sin:hover{
+    color: white;
+}
+.sin a{
+    text-decoration: none;
+    color: white;   
+}
+.contact {
+    position: relative;
+    height: 390px;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+.contact-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 420px;
+    padding: 30px;
+    top: 90px;
+
+}
+.contact-box input,
+.contact-box textarea{
+    width: 270%;
+    padding: 0.9rem;
+    height: 20px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.contact-box form{
+    width: 40%;
+
+}
+.contact-box label{
+    font-size: 1.1rem;
+    padding: 5px 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    
+}
+.contact h1{
+    display: inline-block;
+    position: relative;
+    left: 830px;
+    top:-230px;
+    font-size: 30px ;
+    font-family: 'Poppins', sans-serif;
+}
+.contact p{
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    top: -170px;
+    font-family: 'Inter', sans-serif;
+}
+.contact img{
+    display: inline-block;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    height: 400px;
+    width: 400px;
+}
+.cont-inp{
+    position: relative;
+    padding: 15px 15px;
+    top: 90px;
+}
+.but {
+    display:inline-block;
+    position: absolute;
+    word-wrap: unset;
+    top: 540px;
+    left:850px;
+    color: white;
+    background-color: blue;
+    padding: 11px 110px;
+    margin: 0px -16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.but a{
+    text-decoration: none;
+    color: white;   
+}
+footer{
+    position: absolute;
+    top: 800px;
+    height: 150px;
+    width: 100%;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot a:hover{
+    color: white;
+}
+.end{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    position: relative;
+    width: 50%;
+    top: -10px;
+    left: 540px;
+    font-family: 'Inter', sans-serif;
+}
+.foot{
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+}
+.titl{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500; 
+}
+.copy{
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: -60px; 
+    font-family: 'Inter', sans-serif;
+}
